@@ -7,19 +7,22 @@
 
 
 @{ Html.RenderPartial("01_Index/_01_fullscreen_banner.cshtml", Model); }
-@{ Html.RenderPartial("01_Index/_02_terminology.cshtml", Model); }
-@{ Html.RenderPartial("01_Index/_03_azure.cshtml", Model); }
+@{ Html.RenderPartial("01_Index/_02_about.cshtml", Model); }
+@{ Html.RenderPartial("01_Index/_02b_about.cshtml", Model); }
+@{ Html.RenderPartial("01_Index/_03_speaker.cshtml", Model); }
+@{ Html.RenderPartial("01_Index/_04_schedule.cshtml", Model); }
 
 
 @section NaviBar
     {
-    <li><a class="onepage current" href="#home">Home</a></li>
-    <li><a class="onepage" href="#terms">Terminology</a></li>
-    <li><a class="onepage" href="#microsoft">Why Microsoft?</a></li>
+    <li><a class="onepage current" href="#fullscreen-banner">Home</a></li>
+    <li><a class="onepage" href="#about">About</a></li>
+    <li><a class="onepage" href="#speakers">Speakers</a></li>
+    <li><a class="onepage" href="#schedule">Schedule</a></li>
 
 
-    <li><a asp-page="/Project">Project</a></li>
+   @* <li><a asp-page="/Project">Project</a></li>*@
 
 
 
-}
+    }

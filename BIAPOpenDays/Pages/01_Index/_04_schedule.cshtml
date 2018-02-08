@@ -1,0 +1,250 @@
+﻿@page
+@model IndexModel
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+<div id="schedule" class="section bg-light  border-bottom pt-7 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div data-wow-delay="0.3s" class="text-center mb-6 wow fadeInUp">
+                    <i class="mdi-clock-fast icon-title"></i>
+                   
+                    <h2 class="fw-800 os-font dark-color section-title mb-1">THE SCHEDULE</h2>
+                    @*<p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor. </p>*@
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+
+                    <div data-wow-delay="0.3s" class="wow fadeInRight">
+                        <div class="tabs">
+                            <!-- Nav tabs -->
+                            <div class="nav-tabs-wrapper">
+                                <ul class="nav nav-tabs">
+                                    <li class="active os-font">
+                                        <a href="#tab-content-1" data-toggle="tab">
+                                            <i class="fa fa-calendar"></i>&nbsp;
+                                            Donnerstag, 8.03.2018
+                                        </a>
+                                    </li>
+                                    <li class="os-font">
+                                        <a href="#tab-content-2" data-toggle="tab">
+                                            <i class="fa fa-calendar"></i>&nbsp;
+                                            Freitag, 9.03.2018
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div class="tab-pane active fade in" id="tab-content-1">
+                                    <p>
+                                        <ul class="showcase-table2">
+                                            <li class="os-font fw-bolder title dark-color">
+                                                <span>Time</span>
+                                                <span>Title</span>
+                                                <span>Description</span>                                         
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%" >Business Session I</span></li>
+                                            <li>
+                                                <span>9:00 - 9:30</span>
+                                                <span>BIAP  &amp; Azure Overview</span>
+                                                <span>Vorstellung des Projektes und ein Überblick über die Microsoft Azure Cloud</span>                                              
+                                            </li>
+                                            <li>
+                                                <span>9:30 - 10:00</span>
+                                                <span>BI Themen, Tools &amp; Terminologie</span>
+                                                <span>Was ist Business Intelligence eigentlich? <br />
+                                                        Welche Begriffe gibt es in diesem Umfeld, was bedeuten Sie?<br />
+                                                        Welche Tools sollen zum Einsatz kommen?</span>
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%">Business Session II</span></li>   
+                                            <li>
+                                                <span>10:00 - 11:00</span>
+                                                <span>Cloud Terminologie &amp; Strategy</span>
+                                                <span>
+                                                    Definition von Cloud Computing<br />
+                                                    Deployment &amp; ServiceModels<br />
+                                                    Cloud Strategien
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>11:00 - 12:00</span>
+                                                <span>Digital Technologies</span>
+                                                <span>
+                                                    Artifical Intelligence (Maschine Learning, Natural Language Processing, ...)<br />
+                                                    Blockchain<br />
+                                                    ...
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>12:00 - 13:00</span>
+                                                <span>Birds of a feather... come togehter</span>
+
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%">Tech Session I</span></li>   
+                                            <li>
+                                                <span>13:00 - 13:30</span>
+                                                <span>BIAP  &amp; Azure Overview</span>
+                                                <span>Vorstellung des Projektes und ein Überblick über die Microsoft Azure Cloud</span>
+                                            </li>
+                                            <li>
+                                                <span>9:30 - 10:00</span>
+                                                <span>BI Architecture &amp; Technology</span>
+                                                <span>
+                                                    Azure SQL Server, SQL Database &amp; SQL Data Warehouse<br />
+                                                    Data factory - SSIS &amp; Analysis Services<br />
+                                                    SSRS &amp; Power BI<br />
+                                                    ...
+                                                </span>
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%">Tech Session II</span></li> 
+                                            <li>
+                                                <span>15:30 - 16:00</span>
+                                                <span>Security</span>
+                                                <span>
+                                                    Azure AD &amp; MFA<br />
+                                                    BSI<br />
+                                                    Cloud Strategien
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>15:00 - 16:00</span>
+                                                <span>Cloud Architecture</span>
+                                                <span>
+                                                    Load Balancer<br />
+                                                    Serverless Code<br />
+                                                    Virtual Networks, VPN &amp; Firewalls<br />
+                                                    ...
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>16:00 - 16:30</span>
+                                                <span>Hands on</span>
+                                                <span>
+                                                    
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>16:30 - 17:00</span>
+                                                <span>Birds of a feather... come togehter</span>
+
+                                            </li> 
+
+                                        </ul>
+                                        <br/>...
+                                    <p>
+                                </div>
+                                <div class="tab-pane fade" id="tab-content-2">
+                                    <p>
+                                        <ul class="showcase-table2">
+                                            <li class="os-font fw-bolder title dark-color">
+                                                <span>Time</span>
+                                                <span>Title</span>
+                                                <span>Description</span>
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%">Business Session I</span></li>
+                                            <li>
+                                                <span>9:00 - 9:30</span>
+                                                <span>BIAP  &amp; Azure Overview</span>
+                                                <span>Vorstellung des Projektes und ein Überblick über die Microsoft Azure Cloud</span>
+                                            </li>
+                                            <li>
+                                                <span>9:30 - 10:00</span>
+                                                <span>BI Themen, Tools &amp; Terminologie</span>
+                                                <span>
+                                                    Was ist Business Intelligence eigentlich? <br />
+                                                    Welche Begriffe gibt es in diesem Umfeld, was bedeuten Sie?<br />
+                                                    Welche Tools sollen zum Einsatz kommen?
+                                                </span>
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%">Business Session II</span></li>
+                                            <li>
+                                                <span>10:00 - 11:00</span>
+                                                <span>Cloud Terminologie &amp; Strategy</span>
+                                                <span>
+                                                    Definition von Cloud Computing<br />
+                                                    Deployment &amp; ServiceModels<br />
+                                                    Cloud Strategien
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>11:00 - 12:00</span>
+                                                <span>Digital Technologies</span>
+                                                <span>
+                                                    Artifical Intelligence (Maschine Learning, Natural Language Processing, ...)<br />
+                                                    Blockchain<br />
+                                                    ...
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>12:00 - 13:00</span>
+                                                <span>Birds of a feather... come togehter</span>
+
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%">Tech Session I</span></li>
+                                            <li>
+                                                <span>13:00 - 13:30</span>
+                                                <span>BIAP  &amp; Azure Overview</span>
+                                                <span>Vorstellung des Projektes und ein Überblick über die Microsoft Azure Cloud</span>
+                                            </li>
+                                            <li>
+                                                <span>9:30 - 10:00</span>
+                                                <span>BI Architecture &amp; Technology</span>
+                                                <span>
+                                                    Azure SQL Server, SQL Database &amp; SQL Data Warehouse<br />
+                                                    Data factory - SSIS &amp; Analysis Services<br />
+                                                    SSRS &amp; Power BI<br />
+                                                    ...
+                                                </span>
+                                            </li>
+                                            <li><span class="os-font dark-color" style="width:100%">Tech Session II</span></li>
+                                            <li>
+                                                <span>15:30 - 16:00</span>
+                                                <span>Security</span>
+                                                <span>
+                                                    Azure AD &amp; MFA<br />
+                                                    BSI<br />
+                                                    Cloud Strategien
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>15:00 - 16:00</span>
+                                                <span>Cloud Architecture</span>
+                                                <span>
+                                                    Load Balancer<br />
+                                                    Serverless Code<br />
+                                                    Virtual Networks, VPN &amp; Firewalls<br />
+                                                    ...
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>16:00 - 16:30</span>
+                                                <span>Hands on</span>
+                                                <span>
+
+                                                </span>
+                                            </li>
+                                            <li>
+                                                <span>16:30 - 17:00</span>
+                                                <span>Birds of a feather... come togehter</span>
+
+                                            </li>
+
+                                        </ul>
+                                        <br />...
+                                    <p>
+</div>
+                            </div>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
