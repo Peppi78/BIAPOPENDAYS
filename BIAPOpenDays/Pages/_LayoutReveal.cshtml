@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BIAP Open Days - @ViewData["Title"] </title>
+
+    <environment include="Development">
+        <link rel="stylesheet" href="~/reveal/css/reveal.css" />
+        <link rel="stylesheet" href="~/reveal/css/theme/black.css" />
+
+    </environment>
+    <environment exclude="Development">
+
+
+        <link rel="stylesheet" href="~/reveal/css/reveal.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/reveal/css/theme/black.css" asp-append-version="true" />
+
+
+
+    </environment>
+</head>
+<body>
+
+
+
+            @RenderBody()
+
+
+
+    <environment include="Development">
+
+        <script src="~/reveal/lib/js/head.min.js"></script>
+        <script src="~/reveal/js/reveal.js"></script>
+
+
+
+    </environment>
+    <environment exclude="Development">
+        <script src="~/reveal/lib/js/head.min.js" asp-append-version="true"></script>
+        <script src="~/reveal/js/reveal.js" asp-append-version="true"></script>
+    </environment>
+
+    @RenderSection("Scripts", required: false)
+</body>
+
+</html>

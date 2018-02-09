@@ -1,13 +1,12 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Event Page";
 }
-
-
 
 @{ Html.RenderPartial("01_Index/_01_fullscreen_banner.cshtml", Model); }
 @{ Html.RenderPartial("01_Index/_02_about.cshtml", Model); }
+@{ Html.RenderPartial("01_Index/_02a_about.cshtml", Model); }
 @{ Html.RenderPartial("01_Index/_02b_about.cshtml", Model); }
 @{ Html.RenderPartial("01_Index/_03_speaker.cshtml", Model); }
 @{ Html.RenderPartial("01_Index/_04_schedule.cshtml", Model); }
@@ -16,9 +15,17 @@
 @section NaviBar
     {
     <li><a class="onepage current" href="#fullscreen-banner">Home</a></li>
-    <li><a class="onepage" href="#about">About</a></li>
+    <li><a class="onepage" href="#about">About BIAP</a></li>
+    <li><a class="onepage" href="#idea">The Idea</a></li>
     <li><a class="onepage" href="#speakers">Speakers</a></li>
     <li><a class="onepage" href="#schedule">Schedule</a></li>
+
+    @if (!User.Identity.IsAuthenticated)
+    {
+        <!--<li><a asp-page="/About">About </a></li>-->
+    }
+
+
 
 
    @* <li><a asp-page="/Project">Project</a></li>*@
@@ -26,3 +33,4 @@
 
 
     }
+

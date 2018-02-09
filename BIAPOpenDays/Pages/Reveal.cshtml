@@ -1,0 +1,43 @@
+﻿@page "{id}"
+
+
+@model BIAPOpenDays.Pages.RevealModel
+@{
+    ViewData["Title"] = "Reveal";
+    Layout = "~/Pages/_LayoutReveal.cshtml";
+
+     var pageId = RouteData.Values["id"].ToString();
+
+}
+
+
+@{ Html.RenderPartial("99_Reveal/_01_fullscreen_banner.cshtml", Model); }
+
+@switch (pageId)
+{
+    case "1":
+        <p>Hurra!</p>;
+        break;
+    default:
+        break;
+}
+
+@section Scripts
+    {
+<script>
+                // More info about config & dependencies:
+                // - https://github.com/hakimel/reveal.js#configuration
+                // - https://github.com/hakimel/reveal.js#dependencies
+                Reveal.initialize({
+                    dependencies: [
+                        { src: 'plugin/markdown/marked.js' },
+                        { src: 'plugin/markdown/markdown.js' },
+                        { src: 'plugin/notes/notes.js', async: true },
+                        { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+                    ]
+                });
+</script>
+        }
+
+
+

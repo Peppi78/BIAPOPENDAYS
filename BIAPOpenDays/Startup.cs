@@ -46,6 +46,8 @@ namespace BIAPOpenDays
             .AddRazorPagesOptions(options =>
             {
                 options.Conventions.AllowAnonymousToFolder("/Account");
+                options.Conventions.AllowAnonymousToPage("/Index");
+                options.Conventions.AllowAnonymousToPage("/Reveal");
             });
         }
 
