@@ -25,7 +25,8 @@ namespace BIAPOpenDays.Controllers
         [HttpGet]
         public IActionResult SignOut()
         {
-            var callbackUrl = Url.Page("/Account/SignedOut", pageHandler: null, values: null, protocol: Request.Scheme);
+            //var callbackUrl = Url.Page("/Account/SignedOut", pageHandler: null, values: null, protocol: Request.Scheme);
+            var callbackUrl = Url.Page("/Index", pageHandler: null, values: null, protocol: Request.Scheme);
             return SignOut(
                 new AuthenticationProperties { RedirectUri = callbackUrl },
                 CookieAuthenticationDefaults.AuthenticationScheme, OpenIdConnectDefaults.AuthenticationScheme

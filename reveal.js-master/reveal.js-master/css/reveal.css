@@ -233,7 +233,7 @@ body {
 
 .reveal .controls {
   display: none;
-  position: absolute;
+ /* position: absolute;*/
   top: auto;
   bottom: 12px;
   right: 12px;

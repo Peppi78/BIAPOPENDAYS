@@ -6,15 +6,31 @@
     <title>BIAP Open Days - @ViewData["Title"] </title>
 
     <environment include="Development">
+        <link rel="stylesheet" href="~/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/magnific-popup.css" />
+        <link rel="stylesheet" href="~/css/prettyPhoto.css" />
+        <link rel="stylesheet" href="~/css/style.css" />
+        <link rel="stylesheet" href="~/css/custom.css" />
+        <link rel="stylesheet" href="~/css/style-business.css" />
+        <link rel="stylesheet" href="~/css/colors/ui_cd.css" />
+
+
         <link rel="stylesheet" href="~/reveal/css/reveal.css" />
-        <link rel="stylesheet" href="~/reveal/css/theme/black.css" />
+        <link rel="stylesheet" href="~/reveal/css/theme/black2.css" />
 
     </environment>
     <environment exclude="Development">
 
+        <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/magnific-popup.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/prettyPhoto.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/custom.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/style-business.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/colors/ui_cd.css" asp-append-version="true" />
 
         <link rel="stylesheet" href="~/reveal/css/reveal.css" asp-append-version="true" />
-        <link rel="stylesheet" href="~/reveal/css/theme/black.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/reveal/css/theme/black2.css" asp-append-version="true" />
 
 
 
@@ -34,11 +50,34 @@
         <script src="~/reveal/js/reveal.js"></script>
 
 
+        <script src="~/js/jquery.prettyPhoto.js"></script>
+        <script src="~/js/jquery.min.js"></script>
+        <script src="~/js/jquery-migrate.min.js"></script>
+        <script src="~/js/bootstrap.min.js"></script>
+        <script src="~/js/jquery.magnific-popup.min.js"></script>
+        <script src="~/js/wow.min.js"></script>
+        <script src="~/js/jquery.prettyPhoto.js"></script>
+        <script src="~/js/functions.js"></script>
+        <script src="~/js/script.js"></script>
+
+
 
     </environment>
     <environment exclude="Development">
         <script src="~/reveal/lib/js/head.min.js" asp-append-version="true"></script>
         <script src="~/reveal/js/reveal.js" asp-append-version="true"></script>
+
+
+        <script src="~/js/jquery.prettyPhoto.js" asp-append-version="true"></script>
+        <script src="~/js/jquery.min.js" asp-append-version="true"></script>
+        <script src="~/js/jquery-migrate.min.js" asp-append-version="true"></script>
+        <script src="~/js/bootstrap.min.js" asp-append-version="true"></script>
+        <script src="~/js/jquery.magnific-popup.min.js" asp-append-version="true"></script>
+        <script src="~/js/wow.min.js" asp-append-version="true"></script>
+        <script src="~/js/jquery.prettyPhoto.js" asp-append-version="true"></script>
+        <script src="~/js/functions.js" asp-append-version="true"></script>
+        <script src="~/js/script.js" asp-append-version="true"></script>
+
     </environment>
 
     @RenderSection("Scripts", required: false)

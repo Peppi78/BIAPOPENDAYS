@@ -11,12 +11,22 @@
 }
 
 
-@{ Html.RenderPartial("99_Reveal/_01_fullscreen_banner.cshtml", Model); }
+
 
 @switch (pageId)
 {
     case "1":
-        <p>Hurra!</p>;
+        Html.RenderPartial("99_Reveal/_00_session_open", Model);
+
+        Html.RenderPartial("99_Reveal/_01a_session.cshtml", Model);
+        Html.RenderPartial("99_Reveal/_01b_session.cshtml", Model);
+        Html.RenderPartial("99_Reveal/_01c_session.cshtml", Model);
+        Html.RenderPartial("99_Reveal/_01d_session.cshtml", Model);
+
+        Html.RenderPartial("99_Reveal/_99_session_close.cshtml", Model);
+        break;
+    case "2":
+        Html.RenderPartial("99_Reveal/_02_session.cshtml", Model);
         break;
     default:
         break;

@@ -1,0 +1,17 @@
+Adobe After Effects v15.0 Windows 64 Renderprotokoll für Projekt 'Company Promo Background.aep'
+
+Rendervorgang gestartet am 15-Feb-18 um 2:34:11 PM
+
+  15-Feb-18 2:34:11 PM: Komposition 'Text Comp' gestartet.
+
+  Speichern unter: C:\_2018\after effects\Halloween Slideshow\Footage\Text Comp (0;00;03;23).png    15-Feb-18 2:34:12 PM: Komposition 'Text Comp' beendet.
+
+
+  15-Feb-18 2:34:12 PM: Komposition 'Text Comp Background' gestartet.
+
+  Speichern unter: C:\GitHub\BIAPOpenDays\Videoblocks\ae-cs5-template-company-promo_MkDoPxpl\Company Promo\Background.png    15-Feb-18 2:34:12 PM: Komposition 'Text Comp Background' beendet.
+
+
+  Bish. Renderz.: 1 Sekunden
+Das Protokoll wurde am 15-Feb-18 um 2:34:12 PM geschlossen.
+

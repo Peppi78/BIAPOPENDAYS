@@ -24,7 +24,6 @@
     </environment>
     <environment exclude="Development">
 
-
         <link rel="stylesheet" href="~/css/bootstrap.min.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/css/font-awesome.min.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/css/font-materialdesign.css" asp-append-version="true" />
@@ -128,7 +127,7 @@
                         <div class="main-menu-inner">
                             <ul class="main-nav os-font" data-offset="66">
                                 @RenderSection("NaviBar", required: false)
-
+                                @await Html.PartialAsync("_LoginPartial")
                             </ul>
                         </div>
                     </div>

@@ -1,0 +1,108 @@
+Report created: 
+	31/05/2013	13:21:48
+
+Project name: Infographic Template 2.aep
+
+Source files collected to: 
+	E:\Footage Firm\Infographics Batch\Infographic Template 2\Infographic Template 2 Main Files\Infographic Template 2 folder
+
+Source files collected: None
+
+Collected comps:  
+	Animation_1
+	Button_1
+	Backdrop_
+	Button_2
+	Button_3
+	Button_4
+	Button_5
+	Button_6
+	Side_element_
+	Backdrop_
+	Button_1
+	Button_2
+	Button_3
+	Button_4
+	Button_5
+	Button_6
+	Side_element_
+	Animation_2
+	Sliders_
+	Backdrop_
+	Button_1
+	Button_2
+	Button_3
+	Button_4
+	Button_5
+	Button_6
+	Side_element_
+	Animation_2
+	Sliders_
+	Animation_4
+	Line_= 1
+	Line_= 2
+	Line_= 3
+	Line_= 4
+	Line_= 5
+	Line_= 6
+	Line_= 7
+	Line_= 8
+	Animation_5
+	Line_= 1
+	Line_= 2
+	Line_= 3
+	Line_= 4
+	Line_= 5
+	Line_= 6
+	Line_= 7
+	Line_= 8
+	Stat_1
+	Animation_6
+	Animation_7
+	Animation_8
+	Box_
+	Animation_9
+	Animation_10
+	Box_
+	Main Compositing_
+	Composited_
+	Final Output 1080i HD
+	Final Output 720p HD
+	Final Output NTSC SD
+	
+Number of collected files:  0
+
+Size of collected files:  0 KB
+
+Rendering plug-ins:
+	Advanced 3D
+	
+Effects used:  10
+
+Effect:  Beam
+	
+Effect:  Fill
+	
+Effect:  Grid
+	
+Effect:  Noise
+	
+Effect:  Ramp
+	
+Effect:  Stroke
+	
+Effect:  Timecode
+	
+Effect:  Tint
+	
+Effect:  Vegas
+	
+Effect:  Venetian Blinds
+	
+
+Layer:  Text Layer
+	External dependencies:  
+		Font family: 'Arial', Font style: 'Regular'
+		Font family: 'Segoe UI', Font style: 'Light'
+		Font family: 'Segoe UI', Font style: 'Regular'
+
